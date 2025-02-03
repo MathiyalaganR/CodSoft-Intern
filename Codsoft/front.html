@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    
+    <title>Cinema News</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: white;
+        }
+
+        header {
+            background-color:darkslategray;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        .main-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        .news-article {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 20px;
+            width: 30%;
+            overflow: hidden;
+        }
+
+        .news-article img {
+            width: 100%;
+            height: auto;
+        }
+
+        .news-article h2 {
+            padding: 15px;
+            font-size: 1.5em;
+            margin: 0;
+            background-color: #333;
+            color: white;
+        }
+
+        .news-article p {
+            padding: 15px;
+            font-size: 1em;
+            color:gray;
+        }
+
+        .news-article a {
+            display: inline-block;
+            text-align: center;
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            width: 100%;
+            text-decoration: none;
+        }
+
+        .news-article a:hover {
+            background-color: gray;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: darkslategrey;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Cinema News</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Latest News</a></li>
+                <li><a href="#">Upcoming Releases</a></li>
+                <li><a href="#">Reviews</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="main-container">
+        <div class="news-article">
+            <img src="https://images.saymedia-content.com/.image/t_share/MTc0NDk4NTU2ODY5NDg2MjE0/facts-about-your-favorite-classic-hollywood-movie-stars.jpg" alt="Movie Image 1">
+            <h2>HOLLYWOOD</h2>
+            <p>Here you can get info about the Hollywood movies.</p>
+            <a href="#">Read More</a>
+        </div>
+
+        <div class="news-article">
+            <img src="https://cdn.gulte.com/wp-content/uploads/2023/07/only-Tamil-actors-in-Tamil-films-FEFSI-kollywood.jpg" alt="Movie Image 2">
+            <h2>KOLLYWOOD</h2>
+            <p>Here you can get info about the Kollywood movies.</p>
+            <a href="#">Read More</a>
+        </div>
+
+        <div class="news-article">
+            <img src="https://images.news18.com/ibnlive/uploads/2024/03/image-2024-03-09t144831.305-2024-03-6e01f5690b726b986a4146c6a4e3f222.jpg" alt="Movie Image 3">
+            <h2>MOLLYWOOD</h2>
+            <p>Here you can get info about the Mollywood movies.</p>
+            <a href="#">Read More</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Cinema News. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
